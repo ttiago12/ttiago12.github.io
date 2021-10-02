@@ -27,12 +27,22 @@ header {
 
 .banner {
     position: absolute;
-    top: 30%;
-    left: 10%
+    top: 20%;
+    left: 30%
 }
 
 .banner h1 {
     color: cornsilk;
-    font: 3.5rem;
-    /*utilizar em para acessibilidade */
+    font-size: 3.5rem;
+    font-family: "Noto Sans Display", serif;
+    font-weight: 200;
+    text-shadow: .2rem .15rem 5px rgb(164, 164, 167 .4);
+    line-height: 3.5rem;
+}
+
+.banner p {
+    font-family: "Josefin Slab", serif;
+    color: #ffffff;
+    font-size: 2rem;
+    text-shadow: .2rem .15rem 2px rgb(145, 148, 202 .4);
 }
