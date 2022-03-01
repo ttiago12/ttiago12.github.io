@@ -126,17 +126,18 @@ img{
 }
 
 #slider {
-    
-   
+    background-color: black;
+    position: absolute;
 }
 
 #slider img{
-    
+    position: absolute;
     opacity: 0;
     transition: opacity 800ms;
 }
 
 #slider img.selected { 
+    position: absolute;
     box-shadow: 0ch black;
     border: 1px blanchedalmond;
     opacity: 1;
