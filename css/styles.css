@@ -125,4 +125,19 @@ img{
     
 }
 
+#slider {
+    
+   
+}
 
+#slider img{
+    
+    opacity: 0;
+    transition: opacity 800ms;
+}
+
+#slider img.selected { 
+    box-shadow: 0ch black;
+    border: 1px blanchedalmond;
+    opacity: 1;
+}
