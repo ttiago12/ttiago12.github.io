@@ -43,6 +43,15 @@ header {
     line-height: 3.5rem;
 }
 
+.banner h5 {
+    color: rgba(253, 253, 253, 0.966);
+    font-size: 1.0rem;
+    font-family: "Noto Sans Display", serif;
+    font-weight: 200;
+    text-shadow: .8rem .15rem 5px red);
+    line-height: 8.5rem;
+}
+
 .banner p {
     font-family: "Josefin Slab", serif;
     color: #db0f0f;
