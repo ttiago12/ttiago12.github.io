@@ -45,20 +45,31 @@ header {
 
 .banner p {
     font-family: "Josefin Slab", serif;
-    color: #ffffff;
+    color: #db0f0f;
     font-size: 2rem;
     text-shadow: .2rem .15rem 2px rgb(145, 148, 202 .4);
 }
 
-.icones{
-    
-    flex-direction: center;
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding: 0;
+#slider {
+    width: 100px;
+    max-width: 100px;
+    height: 25vw;
+    max-height: 100px;
+
+    position: relative;
 }
-.icones img{
-    
-    width: 40px;
+
+#slider img{
+    opacity: 0;
+
+    position: absolute;
+
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    transition: opacity 80ms;
+}
+
+#slider img.selected { 
+    opacity: 1;
 }
