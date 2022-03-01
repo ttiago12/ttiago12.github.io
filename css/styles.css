@@ -50,6 +50,14 @@ header {
     text-shadow: .2rem .15rem 2px rgb(145, 148, 202 .4);
 }
 
+.icones{
+    
+    flex-direction: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
 .icones img{
     
     width: 40px;
