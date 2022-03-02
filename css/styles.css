@@ -100,6 +100,7 @@ header {
     border-width: 230px 120px 130px;
     position: absolute;
     top: 50%;
+    left: 5%;
     max-height: 100px;
     
     
@@ -117,4 +118,5 @@ header {
 #linha-horizontal {
     width: 300px;
     border: 1px solid #000;
+    
 }
