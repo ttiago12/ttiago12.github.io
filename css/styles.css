@@ -9,17 +9,13 @@
     border: 5px black;
     
 }
-body{
- 
-    background-image: url("imagens/bg.jpg") ;
-}
 
 h1{
     color: aliceblue;
 }
 
 .item {
-    
+   
     margin: 5px;
 }
 
