@@ -4,27 +4,22 @@
     margin: 0;
     padding: 0;
 }
-
-body{
-    background-color: rgb(207, 108, 108);
-}
-
 .container{
     
-    background-image: url("imagens/bg.jpg") ;
+    border: 5px black;
     
 }
+body{
+ 
+    background-image: url("imagens/bg.jpg") ;
+}
+
+
 .item {
     background-color: aqua;
     margin: 5px;
 }
-header {
-    
-    width: 100%;
-    height: 100vh;
-    overflow: auto;
-    position: absolute;
-}
+
 
 #slider h2{
     color: rgb(201, 196, 193);
@@ -38,7 +33,7 @@ header {
 .img-wrapper {
     width: 100%;
     height: 100%;
-    background-color: rgb(17, 16, 16);
+    background-color: rgb(12, 11, 11);
 }
 
 .img-wrapper img {
@@ -85,13 +80,7 @@ header {
 
 
 
-.flex{
-    max-width: 300px;
-    padding: 10px;
-    border: 2px solid black;
-    display: flex;
-    margin: 5px;
-}
+
 
 
 
