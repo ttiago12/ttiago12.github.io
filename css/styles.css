@@ -126,6 +126,14 @@ header {
     
 }
 
+.flex{
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+    margin: 5px;
+}
+
 .sobre h3{
     color: rgb(167, 160, 134);
     font-size: 3.0 rem;
