@@ -4,6 +4,16 @@
     margin: 0;
     padding: 0;
 }
+body, ul , li , p{
+    margin: 0px;
+    paddding: 0px;
+    lsit-style: none;
+    font-size: 1.2rem;
+    font-family: Arial;
+}
+a{
+    text-decoration: none;
+}
 body{
     background-image: url ("imagens/fn.png");
     background-color: #3f3f3f;
@@ -45,7 +55,6 @@ h1{
     width: 10vh;
     height: 20vh;
     display: flex;
-    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
     margin: 45px 20px 0 20px;
