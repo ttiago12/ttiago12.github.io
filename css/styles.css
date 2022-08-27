@@ -336,3 +336,13 @@ footer p{
     bottom: 35px;
     font-size: 14px ;
 }
+
+
+#slider img {
+    opacity: 0;
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+    transition: opacity 80ms;
+}
