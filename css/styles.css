@@ -235,6 +235,17 @@ button:hover{
     text-align:  center;
     
 }
+.Card2{
+    background: #191919;
+    height: 365px;
+    width: 505px;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    
+}
 
 .Card i{
     font-size: 50px;
@@ -244,6 +255,13 @@ button:hover{
     color: #f9004d;
 }
 
+.Card2 i{
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: #f9004d;
+}
 h5{
     color: #fff;
     font-size: 23px;
@@ -251,7 +269,7 @@ h5{
 }
 
 .Paragrafo-button{
-    color: #fcfc;
+    color: #f5f5f5;
     font-size: 16px;
     line-height: 27px;
     margin-bottom: 25px;
