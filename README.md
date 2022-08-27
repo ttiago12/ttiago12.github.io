@@ -6,3 +6,6 @@ Adição de nova funcionalide de slide dos icones de linguagens , com auxilio da
 
 ## Tarefas
 O controle das tarefas desse projeto será realizado no GitHub
+
+
+https://ttiago12.netlify.app
