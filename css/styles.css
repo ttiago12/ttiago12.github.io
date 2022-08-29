@@ -361,11 +361,25 @@ footer p{
 }
 
 
-#slider img {
+
+
+#slider {
+    width: 10px;
+    max-width: 10px;
+    height: 25vw;
+    max-height: 10px;
+    top: 50%;
+    left: 30%
+}
+#slider img{
+   
+    opacity: 0;
+    position:absolute;
     
-    
-    
-    
-    
-    
+    height: 10%;
+    object-fit: cover;
+    transition: opacity 80ms;
+}
+#slider img.selected { 
+    opacity: 1;
 }
