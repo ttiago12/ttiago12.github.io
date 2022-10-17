@@ -80,11 +80,11 @@ header img {
 h1 {
     
     
-    color: #ffffff;
-    font-size: 40px;
-    text-align: right;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
     text-shadow: 0.2em 0.05em 0.05em rgb(84, 76, 155);
-    text-shadow: 0.1em 0.05em 0.05em rgb(36, 32, 30);
+
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
 }
@@ -94,7 +94,6 @@ h2{
     margin: auto;
     text-align: auto;
 	text-shadow: 0.2em 0.05em 0.05em rgb(24, 0, 245);
-    text-shadow: 0.1em 0.05em 0.05em rgb(0, 0, 0);
 	font-family: 'Lato', sans-serif;
     font-weight: lighter;
    
@@ -184,7 +183,6 @@ p{
 h4{
     color: #fff;
     font-size: 15px;
-    text-transform: capitalize;
     margin-bottom: 20px;
     line-height: 1.8
 }
