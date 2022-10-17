@@ -181,27 +181,6 @@ p{
 }
 	
 
-
-
-.Card{
-    background: #191919;
-    height: 360px;
-    width: 335px;
-    border-radius: 20px;
-    margin: 1px;
-    position: relative;
-    overflow: hidden;
-    text-align:  center;
-    border: 0.5px solid #000059;
-}
-.Card2{
-    background: #191919;
-    border-radius: 20px;
-    overflow: hidden;
-    text-align:  center;
-    
-}
-
 h4{
     color: #fff;
     font-size: 15px;
