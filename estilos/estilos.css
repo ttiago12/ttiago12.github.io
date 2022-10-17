@@ -1,0 +1,256 @@
+/* Meu CSS */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;1,300;1,400&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+html{
+    
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+
+}
+body{
+
+
+	background-color: rgb(70, 69, 69);
+    
+    
+	
+}
+
+.border{
+    border: solid rgb(210, 210, 219);
+    border-radius: 20%;
+}
+
+
+
+.cont img {
+   
+    height: 100%;
+    width: 100%;
+   
+}
+
+
+
+
+header {
+    
+     
+    
+    
+}
+
+.menu-content{
+    
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    
+}
+
+.menu-content .list-itens{
+   
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    position:absolute;
+    height: 50px;
+    width: 100vh;
+    
+}
+
+.menu-content .list-itens a {
+    
+    display: flex;
+    text-decoration: none;
+    color: rgb(255, 253, 253);
+    padding: 1.5rem;
+    font-size: 20px;
+
+    
+}
+
+
+.sobre{
+    
+  
+}
+
+header img {
+   
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+   
+    
+}
+
+h1 {
+    
+    
+    color: #ffffff;
+    font-size: 40px;
+    text-align: right;
+    text-shadow: 0.2em 0.05em 0.05em rgb(84, 76, 155);
+    text-shadow: 0.1em 0.05em 0.05em rgb(36, 32, 30);
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+
+}
+
+h2{
+	color: #ffffff;
+    margin: auto;
+    text-align: auto;
+	text-shadow: 0.2em 0.05em 0.05em rgb(24, 0, 245);
+    text-shadow: 0.1em 0.05em 0.05em rgb(0, 0, 0);
+	font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+   
+}
+
+.flex{
+    justify-content: space-between;
+}
+
+h3 {
+	
+	color : #feffff;
+	text-align: center;
+	margin: auto;
+	text-shadow: 0.10em 0.05em 0.05em #333;
+	font-family: 'Ubuntu Mono', monospace;
+		
+}
+
+h4{
+	color: rgb(245, 240, 240);
+	margin: auto;
+    font-family: 'Lato', sans-serif;
+    font-weight: lighter;
+}
+
+
+
+	
+p{
+    color: #ffffff;
+    text-align: auto;
+	font-family: 'Ubuntu', sans-serif;
+	
+}
+/* */
+.container{
+    max-width: 100%;
+    border: 1px solid black;
+    display: flex;
+}
+
+.item{
+    background-color: rgba(1, 25, 160, 0.24);
+    height: 60vh;
+    margin: 5px;
+    color:white;
+    text-align: center;
+    flex: 1;
+}
+
+.center{
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+.flex-start{
+    align-items: flex-start;
+}
+
+.flex-end{
+    align-items: flex-end;
+}
+
+.baseline{
+    align-items: baseline;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.central{
+    height: 300px;
+    justify-content: center;
+}
+
+.central .item{
+    flex:0;
+    padding: 20px;
+}
+	
+
+#slider {
+    
+    align-items:center;
+   
+    
+   
+}
+#slider img{
+   
+    opacity: 0;
+    position:absolute;
+    height: 10%;
+    object-fit: cover;
+    transition: opacity 80ms;
+}
+#slider img.selected { 
+    opacity: 1;
+}
+.Card{
+    background: #191919;
+    height: 360px;
+    width: 335px;
+    border-radius: 20px;
+    margin: 1px;
+    position: relative;
+    overflow: hidden;
+    text-align:  center;
+    border: 0.5px solid #000059;
+}
+.Card2{
+    background: #191919;
+
+    border-radius: 20px;
+    
+    
+    overflow: hidden;
+    text-align:  center;
+    
+}
+
+
+
+
+/*topo direita inferior esquerdo*/
+/*zero nao precisa usar unidade*/
+
+
+
+
