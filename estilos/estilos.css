@@ -8,8 +8,10 @@
 
 * {
     
-    margin: 0px;
-    padding: 0px;
+    padding: 0;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
     
 }
 
@@ -19,8 +21,8 @@ html{
     color: white;
     font-family: 'Montserrat', sans-serif;
     
-
 }
+
 body{
 
 
@@ -39,20 +41,12 @@ body{
 
 .cont img {
    
-    height: 100%;
+    height: 10%;
     width: 100%;
    
 }
 
 
-
-
-header {
-    
-     
-    
-    
-}
 
 .menu-content{
     
@@ -86,10 +80,7 @@ header {
 }
 
 
-.sobre{
-    
-  
-}
+
 
 header img {
    
@@ -245,7 +236,13 @@ p{
     
 }
 
-
+h4{
+    color: #fff;
+    font-size: 15px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    line-height: 1.8;
+}
 
 
 /*topo direita inferior esquerdo*/
