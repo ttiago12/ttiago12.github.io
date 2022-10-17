@@ -194,24 +194,8 @@ p{
 }
 	
 
-#slider {
-    
-    align-items:center;
-   
-    
-   
-}
-#slider img{
-   
-    opacity: 0;
-    position:absolute;
-    height: 10%;
-    object-fit: cover;
-    transition: opacity 80ms;
-}
-#slider img.selected { 
-    opacity: 1;
-}
+
+
 .Card{
     background: #191919;
     height: 360px;
@@ -225,10 +209,7 @@ p{
 }
 .Card2{
     background: #191919;
-
     border-radius: 20px;
-    
-    
     overflow: hidden;
     text-align:  center;
     
