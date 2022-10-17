@@ -43,7 +43,7 @@ body{
     text-transform: uppercase;
     display: flex;
     justify-content: center;
-    font-size: 1.8rem;
+    font-size: 1.0rem;
 }
 
 .menu-content .list-itens{
@@ -51,8 +51,8 @@ body{
     display: flex;
     list-style: none;
     position:absolute;
-    height: 50px;
-    width: 70vh;
+    height: 5px;
+    width: 50vh;
 }
 
 .menu-content .list-itens a {
