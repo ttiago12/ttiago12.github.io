@@ -22,31 +22,19 @@ html{
 
 }
 body{
-	background-color: #c7d9eb;  	
+	background-color: #ffffff;  	
 }
 
 .border{
-    border: solid rgb(27, 27, 109);
+    border: solid rgb(222, 222, 233);
     border-radius: 20%;
 }
 
-
-.menu-content{
-    text-transform: uppercase;
-    display: flex;
-    justify-content: center;
-    font-size: 1.0rem;
+.color{
+    border: solid rgb(160, 160, 187) 1px;
+    border-radius: 1%;
+    background-color: #f3f9ff; 
 }
-
-.menu-content .list-itens{
-    justify-content: center;
-    display: flex;
-    list-style: none;
-    position:absolute;
-    height: 5px;
-    width: 50vh;
-}
-
 
 
 .flex{
@@ -72,6 +60,10 @@ body{
 
 .baseline{
     align-items: baseline;
+}
+
+.center{
+    text-align:   center;
 }
 
 .column{
