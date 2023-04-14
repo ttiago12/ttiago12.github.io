@@ -16,17 +16,17 @@
 html{
     
     font-size: 62.5%;
-    color: white;
+    ;
     font-family: 'Montserrat', sans-serif;
     
 
 }
 body{
-	background-color: rgb(240, 231, 231);  	
+	background-color: #1e1f20;  	
 }
 
 .border{
-    border: solid rgb(210, 210, 219);
+    border: solid rgb(27, 27, 109);
     border-radius: 20%;
 }
 
