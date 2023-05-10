@@ -16,6 +16,9 @@
 		<link rel="manifest" href="/site.webmanifest">
 		
 		
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
         
         <!-- Required meta tags -->
         <meta charset="utf-8">
@@ -23,7 +26,7 @@
 
         <!--  BootstrapCDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        
     </head>
 	
 	<body>
@@ -66,7 +69,33 @@
                     <span class="border-bottom"></span>
                     
                 </ul>
-            </div>    
+            </div>   
+            
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <!-- Slides -->
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://img.icons8.com/color/48/000000/c-plus-plus-logo.png" alt="Imagem 1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.icons8.com/dusk/64/000000/sql.png" alt="Imagem 2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://img.icons8.com/nolan/64/github.png" alt="Imagem 3">
+                  </div>
+                </div>
+              
+                <!-- Controles -->
+                <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Anterior</span>
+                </a>
+                <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Próximo</span>
+                </a>
+            </div>
+
             <footer class="bg-dark text-light">
                 <div class="container-fluid py-3">
                     <i class="fab fa-linkedin fa-3x "></i>
