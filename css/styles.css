@@ -23,18 +23,18 @@ html{
 
 }
 body{
-	background-color: #251f1f;  	
+	background:#251f1f;  	
 }
 
 .border{
-    border: solid rgb(222, 222, 233);
+    border: solid rgb(118, 118, 141);
     border-radius: 20%;
 }
 
 .color{
-    border: solid rgb(160, 160, 187) 1px;
+    border: solid rgb(61, 61, 118) 1px;
     border-radius: 1%;
-    background-color: #f3f9ff; 
+    background-color: #587897; 
 }
 
 
